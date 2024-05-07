@@ -45,8 +45,8 @@ const Navbar = () => {
     <>
         <div className="bg-white shadow-md">
             <div className="container flex justify-between py-4 sm:py-3">
-                <div className="text-3xl font-bold" >Logo</div>
-                <div>
+                <div className="text-3xl font-bold" data-aos="fade-right" data-aos-duration="1500" >Logo</div>
+                <div data-aos="fade-left" data-aos-duration="1500">
                     <ul className="flex items-center gap-10 " >
                         { naveLinks.map(link => 
                             (<li key = {link.id} className="hidden sm:block" >

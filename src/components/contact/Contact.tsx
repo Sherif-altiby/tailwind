@@ -4,7 +4,7 @@ import { FaPhone } from "react-icons/fa6";
 
 const Contact = () => {
   return (
-    <div className="mt-[200px] text-white" >
+    <div className="mt-[200px] text-white" data-aos="zoom-in" data-aos-duration="1500" >
         <div className="container bg-[#BB2C51] rounded-tr-[40px] rounded-tl-[40px]">
             <h1 className="text-center text-5xl pt-10" > Contact US </h1>
             <div className="flex justify-between gap-5 sm:flex-row  flex-col py-10 border-b-2 border-white border-solid	" >
