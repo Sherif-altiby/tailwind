@@ -25,7 +25,7 @@ vite create my-react-app --template react
 
   using typescript with react:
 
-  ```
+ ```
   npm install --save typescript @types/react @types/react-dom
  ```
 
