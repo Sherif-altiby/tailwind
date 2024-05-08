@@ -37,5 +37,34 @@ using Tailwind CSS with react:
 npm install tailwindcss
 ```
 
+- Aos Library: AOS adds visual animations to elements as they enter the viewport while scrolling. These animations can make your website more engaging and interactive, capturing users' attention and enhancing their overall experience.
 
+Instaling
+
+```
+npm install aos
+```
+Importting
+
+```
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+```
+
+```
+const App = () => {
+  useEffect(() => {
+    AOS.init({
+      // Global settings
+    });
+  }, []);
+
+  return (
+    // Your app content
+  );
+};
+
+export default App;
+```
 
