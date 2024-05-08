@@ -10,11 +10,11 @@
 - VS Code
 
 
-### DEscription
+### Description
 
 - usinge vite in createing react app. Vite is optimized for modern browsers that support ES module imports. Instead of bundling all your code into a single file, Vite serves individual files for each module, leveraging browser support for native module loading.
 
-- ex
-- vite create my-react-app --template react
+ex
+vite create my-react-app --template react
 
 
