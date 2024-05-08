@@ -23,7 +23,7 @@ vite create my-react-app --template react
 
 - using Typescript: TypeScript adds static typing to JavaScript, which helps catch errors during development. This can lead to fewer runtime errors and more robust code.
 
-  using typescript with react:
+using typescript with react:
 
  ```
   npm install --save typescript @types/react @types/react-dom
